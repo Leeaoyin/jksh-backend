@@ -1,0 +1,1 @@
+package com.letgee.domain.service;import com.letgee.application.common.param.dto.BindDTO;import com.letgee.infrastructure.repository.po.RhSysUser;public interface PositionOrderService {        Boolean takeOrderByUser(RhSysUser user, Integer positionId);        Boolean bindResume(RhSysUser user, BindDTO bindDTO);}

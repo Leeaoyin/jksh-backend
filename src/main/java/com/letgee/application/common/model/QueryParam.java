@@ -1,0 +1,1 @@
+package com.letgee.application.common.model;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;import java.io.Serializable;@Data@Builder@AllArgsConstructor@NoArgsConstructorpublic class QueryParam implements Serializable {      private Integer page_size;    private Integer page_num;}
