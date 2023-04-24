@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.letgee.infrastructure.repository.mapper.RhSysUserMapper">
-  <resultMap id="BaseResultMap" type="com.letgee.infrastructure.repository.po.RhSysUser">
+<mapper namespace="com.jksh.infrastructure.repository.mapper.RhSysUserMapper">
+  <resultMap id="BaseResultMap" type="com.jksh.infrastructure.repository.po.RhSysUser">
     <!--
       WARNING - @mbg.generated
     -->

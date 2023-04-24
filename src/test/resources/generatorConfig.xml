@@ -21,11 +21,11 @@
             <property name="nullCatalogMeansCurrent" value="true"/>
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.letgee.infrastructure.repository.po" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.jksh.infrastructure.repository.po" targetProject="src/main/java"/>
 
         <sqlMapGenerator targetPackage="mybatis/"  targetProject="src/main/resources"/>
 
-        <javaClientGenerator targetPackage="com.letgee.infrastructure.repository.mapper" targetProject="src/main/java" type="XMLMAPPER" />
+        <javaClientGenerator targetPackage="com.jksh.infrastructure.repository.mapper" targetProject="src/main/java" type="XMLMAPPER" />
 
 
 

@@ -1,0 +1,1 @@
+package com.jksh.domain.service;import com.jksh.application.common.param.dto.BindDTO;import com.jksh.infrastructure.repository.po.RhSysUser;public interface PositionOrderService {        Boolean takeOrderByUser(RhSysUser user, Integer positionId);        Boolean bindResume(RhSysUser user, BindDTO bindDTO);}
