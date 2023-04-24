@@ -19,7 +19,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan(value = "com.letgee.infrastructure.repository.mapper",
+@MapperScan(value = "com.jksh.infrastructure.repository.mapper",
         sqlSessionFactoryRef = "rhSqlSessionFactory")
 public class ORMConfig {
 //    @Resource
