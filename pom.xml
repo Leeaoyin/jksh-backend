@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.letgee</groupId>
-  <artifactId>resume-hunter</artifactId>
+  <groupId>com.jksh</groupId>
+  <artifactId>jksh-backend</artifactId>
   <version>1.0.0-beta</version>
   <packaging>jar</packaging>
 
@@ -13,7 +13,7 @@
     <version>2.0.4.RELEASE</version>
   </parent>
 
-  <name>resume-hunter</name>
+  <name>jksh-backend</name>
   <url>http://maven.apache.org</url>
 
   <properties>
