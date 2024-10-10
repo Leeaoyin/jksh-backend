@@ -1,9 +1,9 @@
 ## mysql
 dataplatform.rh.db.conn.driver-class-name: com.mysql.cj.jdbc.Driver
 # 10.0.4.12
-dataplatform.rh.db.conn.jdbcUrl: jdbc:mysql://test-jksh.mysql.rds.aliyuncs.com/resume_hunter?characterEncoding=utf8&useSSL=false
-dataplatform.rh.db.conn.userName: qa
-dataplatform.rh.db.conn.password: jksh@123
+dataplatform.rh.db.conn.jdbcUrl: jdbc:mysql://localhost:3306/resume_hunter?characterEncoding=utf8&useSSL=false
+dataplatform.rh.db.conn.userName: root
+dataplatform.rh.db.conn.password: 123456
 dataplatform.rh.db.conn.maxActive: 200
 dataplatform.rh.db.conn.maxIdle: 30
 dataplatform.rh.db.conn.maxWait: 1000
